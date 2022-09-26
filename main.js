@@ -10,7 +10,6 @@ $(() => {
 	$(".numSwitch").click(function ()  {
 		inputValue = Number($(this).prop("id"));
 		if (displayValue == null){
-		console.log($(this).prop("id"));
 			displayValue = inputValue;
 			displayNumber(displayValue);
 		}else{
