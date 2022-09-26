@@ -98,8 +98,8 @@ $(() => {
 
 	//適応中のオペレーターをマーク
 	function markActiveOperator(operatorIndex) {
-		namae = "#" + operators[operatorIndex];
+		operatorBox = "#" + operators[operatorIndex];
 		$(".operator").css('background-color', 'white');
-		$(namae).css('background-color', 'gray');
+		$(operatorBox).css('background-color', 'gray');
 	}
 });
