@@ -31,6 +31,7 @@ $(() => {
 		operator = null;
 		backgroundValue	= displayValue;
 		displayValue = null;
+		$(".operator").css('background-color', 'white');
 	});
 
 	// オールクリア押下
